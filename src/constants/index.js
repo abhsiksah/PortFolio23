@@ -17,6 +17,9 @@ import {
   docker,
   meta,
   starbucks,
+  accenture,
+  siterecon,
+  tredence,
   tesla,
   shopify,
   carrent,
@@ -42,20 +45,13 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Front-End Developer",
     icon: web,
   },
+
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "Back-End Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -116,55 +112,80 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Front-End Developer",
+    company_name: "Accenture",
+    icon: accenture,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Nov 2019 - Sep 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and implemented front-end code using HTML, CSS,JavaScript,  React.js and Express.js  to meet business requirements.",
+      " Collaborated with the team to design new features for our web application.",
+      "Ensured that all code is well documented, reusable, efficient, and followed best practices.",
+      "Participated in peer code reviews as appropriate for the task at hand and reviewed others’ codes when requested.",
+      "Used source control tools (GitHub) appropriately depending on the task at hand and participated in daily standups when applicable.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Full-Stack Developer",
+    company_name: "Tredence - Signet jewelers Client",
+    icon: tredence,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Oct 2021 - July 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created features for a Dashboard using React.",
+      "Included features in The Dashboard like charts and tables which showed the statistics of the inventory of Diamonds. ",
+      "Used ETL processes in the Backend to get the data in the form of Excel files which were then parsed into a MySql DB, using a python script that ran on one of the microservices deployed in the eco-system.",
+      "Created The Dashboard's tables and charts using React 3rd party Lib like react charts and design libraries like Material UI.",
+      "Tech stacks and skills used during the project included React, Redux, JavaScript, MySQL, Express.js, Material UI, Statistics, ETL & Excel",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Full-Stack Developer",
+    company_name: "Tredence - GAP Client",
+    icon: tredence,
+    iconBg: "#E6DEDD",
+    date: "Oct 2021 - July 2022",
+    points: [
+      "Created features for a Dashboard using React.js and Express.js",
+      "Included features to the dashboard like charts and tables which were created using React 3rd party libraries like React charts and design libraries like Ant Design.",
+      "Used React global state management tools like Redux-Toolkit.",
+      "Worked on the new features that were asked in the user stories like creating certain modals, charts, etc.",
+      "Created a side project called Server Health Tracker App in React from Scratch and integrated it with fast API.",
+    ],
+  },
+  {
+    title: "Full-Stack Developer",
+    company_name: "Tredence - Kimberly-Clark Client",
+    icon: tredence,
+    iconBg: "#E6DEDD",
+    date: "Oct 2021 - July 2022",
+    points: [
+      "Worked on a React.js and Express.js project which created a similar application to PowerBI but was showing reports on the basis of region.",
+      "Added features like Export report, and Share report in React.js",
+      "Created several REST APIs in Node.js for the above features.",
+      "Created tables in Postgres for the new features.",
+      "Wrote the schemas for tables when we needed to add a new table for that we used ORM like Sequelize.",
+      "Used Azure DevOps Server for the deployment of our application.",
+      "Developed the project using JavaScript, React, Redux, Azure DevOps, PowerBI, Sequelize and Node.js",
+    ],
+  },
+  {
+    title: "Sr. Frontend Developer",
+    company_name: "SiteRecon",
+    icon: siterecon,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Aug 2022 - Dec 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "The Project focused on creating a platform for the users to measure their properties or any entity on the Maps and get data for that property, basically the Geo-JSON data which had information like area of the property and also looked for objects like trees, water-bodies and more if embeded in that entity that was being measured. We used Open-Layer for creating Maps and integrating it with our React project",
+      "Worked on creating the React project for Note Card which had to be integrated with the map where the Siterecon users used to add their queries if they find any miscalculations or wanted to give some notes in the measurement of properties.",
+      "Used React external library like Jodit-React text editor allowing for users to add notes with a title and description.",
+      "Included a feature for managers to assign users at their organization level and also link features of the property to the note.",
+      "Added a feature for users to comment on a note and other organization users can comment on them too.",
+      "Worked on TDD by integrating a React testing library called Cypress with the existing codebase.",
+      "Solved the React — Loading Chunk Failed Error in production",
+      "Converted existing JavaScript code into TypeScript",
+      "Used Express.js and Node.js for backend",
+      "Created a Media Player from scratch which supported all kinds of files ranging from PNG, GIFY, MP4, XLXS, PDF and more...",
     ],
   },
 ];
@@ -198,58 +219,60 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Social-Index",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "It's an Ongoing Project that allows users to create their accounts and connect to all the users in the application's DB and share photos. You can also follow and unfollow users. The most significant part of this application is that you get a Rank which is your Social Index. The rank is calculated by how social you are.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Rest-Api",
+        color: "pink-text-gradient",
+      },
+    ],
+    image:
+      "https://res.cloudinary.com/mantiscloud/image/upload/v1671183443/Screenshot_2022-12-16_150626_ds2moi.png",
+    source_code_link: "https://social-index.onrender.com/",
+  },
+  {
+    name: "YouTube-Clone",
+    description:
+      "Web application that enables users to search for Videos just like YouTube, We are using the RapidApi for our REST services .",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "RestApi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Netlify platform services",
+        color: "pink-text-gradient",
+      },
+    ],
+    image:
+      "https://res.cloudinary.com/mantiscloud/image/upload/v1671188044/Screenshot_2022-12-16_162333_amjcmk.png",
+    source_code_link: "https://bejewelled-caramel-0c49d4.netlify.app/",
+  },
+  {
+    name: "CockTail App",
+    description:
+      "A Mini Project which allows users to search for their favourite cocktails ❤️ ",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "js",
         color: "green-text-gradient",
       },
       {
@@ -257,8 +280,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image:
+      "https://res.cloudinary.com/mantiscloud/image/upload/v1626635548/Capture2_x12k1z.png",
+    source_code_link: "https://mrcocktail.netlify.app/",
   },
 ];
 

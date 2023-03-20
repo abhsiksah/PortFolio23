@@ -1,11 +1,11 @@
 Model Information:
-* title:	Gaming Desktop PC
-* source:	https://sketchfab.com/3d-models/gaming-desktop-pc-d1d8282c9916438091f11aeb28787b66
-* author:	Yolala1232 (https://sketchfab.com/Yolala1232)
+* title:	Diplodocus carnegii (NHMW-Geo 1909/0004/0003)
+* source:	https://sketchfab.com/3d-models/diplodocus-carnegii-nhmw-geo-190900040003-1d07ae9e002f4e8ab930dc92d07eb078
+* author:	Natural History Museum Vienna (https://sketchfab.com/NHMWien)
 
 Model License:
-* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
-* requirements:	Author must be credited. Commercial use is allowed.
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "Gaming Desktop PC" (https://sketchfab.com/3d-models/gaming-desktop-pc-d1d8282c9916438091f11aeb28787b66) by Yolala1232 (https://sketchfab.com/Yolala1232) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+This work is based on "Diplodocus carnegii (NHMW-Geo 1909/0004/0003)" (https://sketchfab.com/3d-models/diplodocus-carnegii-nhmw-geo-190900040003-1d07ae9e002f4e8ab930dc92d07eb078) by Natural History Museum Vienna (https://sketchfab.com/NHMWien) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

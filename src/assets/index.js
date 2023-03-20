@@ -25,6 +25,9 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import accenture from "./company/accenture.png";
+import siterecon from "./company/siterecon.png";
+import tredence from "./company/tredence.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -40,6 +43,9 @@ export {
   menu,
   close,
   css,
+  accenture,
+  siterecon,
+  tredence,
   docker,
   figma,
   git,
