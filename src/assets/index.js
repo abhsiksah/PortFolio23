@@ -28,7 +28,7 @@ import tesla from "./company/tesla.png";
 import accenture from "./company/accenture.png";
 import siterecon from "./company/siterecon.png";
 import tredence from "./company/tredence.png";
-
+import cilogo from "./company/cilogo.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -45,6 +45,7 @@ export {
   css,
   accenture,
   siterecon,
+  cilogo,
   tredence,
   docker,
   figma,

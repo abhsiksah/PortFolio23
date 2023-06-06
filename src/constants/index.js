@@ -15,16 +15,10 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
+  cilogo,
   accenture,
   siterecon,
   tredence,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
 } from "../assets";
 
@@ -174,7 +168,7 @@ const experiences = [
     company_name: "SiteRecon",
     icon: siterecon,
     iconBg: "#383E56",
-    date: "Aug 2022 - Dec 2023",
+    date: "Aug 2022 - Dec 2022",
     points: [
       "The Project focused on creating a platform for the users to measure their properties or any entity on the Maps and get data for that property, basically the Geo-JSON data which had information like area of the property and also looked for objects like trees, water-bodies and more if embeded in that entity that was being measured. We used Open-Layer for creating Maps and integrating it with our React project",
       "Worked on creating the React project for Note Card which had to be integrated with the map where the Siterecon users used to add their queries if they find any miscalculations or wanted to give some notes in the measurement of properties.",
@@ -188,32 +182,17 @@ const experiences = [
       "Created a Media Player from scratch which supported all kinds of files ranging from PNG, GIFY, MP4, XLXS, PDF and more...",
     ],
   },
-];
-
-const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    title: "Sr. Frontend Developer",
+    company_name: "Classic Informatics",
+    icon: cilogo,
+    iconBg: "#E6DEDD",
+    date: "Dec 2022 - currently working",
+    points: [
+      "I have worked for the client Family Doctor which is Australia's premier provider of quality medical care.",
+      "We have created an application which acts as a portal where they can find all their doctors and their details.",
+      "We have used React.js and TypeScript to develop the application",
+    ],
   },
 ];
 
@@ -283,6 +262,33 @@ const projects = [
     image:
       "https://res.cloudinary.com/mantiscloud/image/upload/v1626635548/Capture2_x12k1z.png",
     source_code_link: "https://mrcocktail.netlify.app/",
+  },
+];
+
+const testimonials = [
+  {
+    testimonial:
+      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    name: "Sara Lee",
+    designation: "CFO",
+    company: "Acme Co",
+    image: "https://randomuser.me/api/portraits/women/4.jpg",
+  },
+  {
+    testimonial:
+      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    name: "Chris Brown",
+    designation: "COO",
+    company: "DEF Corp",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
+  },
+  {
+    testimonial:
+      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Lisa Wang",
+    designation: "CTO",
+    company: "456 Enterprises",
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
